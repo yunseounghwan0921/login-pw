@@ -142,3 +142,21 @@ body {
   animation: shake 0.5s;
   background-color: #ffe6e6;
 }
+
+@media (min-width: 768px) {
+  .input-box input {
+    height: 60px;
+    font-size: 1.5rem;
+  }
+
+  .button-grid button {
+    width: 90px;
+    height: 90px;
+    font-size: 1.3rem;
+  }
+
+  .clear-btn {
+    height: 55px;
+    font-size: 1.1rem;
+  }
+}
